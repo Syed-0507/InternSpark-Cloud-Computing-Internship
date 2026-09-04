@@ -38,7 +38,7 @@ Google Cloud Platform (GCP)
 
 4. Create the custom webpage:
 
-    echo '<h1>Hello from Cloud VM</h1>' | sudo tee /var/www/html/index.html
+        echo "&lt;h1&gt;Hello from Cloud VM&lt;/h1&gt;" | sudo tee /var/www/html/index.html
 
 ## Implementation
 
