@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InternSpark Cloud Computing Task 1</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e3a8a);
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: normal;
+            margin-bottom: 30px;
+        }
+
+        button {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #message {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Cloud Computing</h1>
+
+    <h2>InternSpark Internship Task 1</h2>
+
+    <p>
+        Static website successfully deployed using Google Cloud Storage.
+    </p>
+
+    <button onclick="testWebsite()">Test Website</button>
+
+    <p id="message"></p>
+
+</div>
+
+<script>
+function testWebsite() {
+    document.getElementById("message").innerText =
+        "JavaScript is working. Website deployed successfully!";
+}
+</script>
+
+</body>
+</html>
